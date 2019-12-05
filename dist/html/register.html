@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>欢迎注册</title>
+    <link rel="shortcut icon" href=".././img/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/register.min.css">
+</head>
+<body>
+    <div class="an">
+        <a href="../index.html"><img src="../img/register/logo.jpg" alt=""></a>
+    <div class="top" style="border-bottom: 1px solid #676767;margin-bottom:10px">
+        <div class="l" style="font-size: 14px;color:white;width: 169px;height: 26px;line-height:26px;text-align: center;background: #676767;">
+            手机注册
+        </div>
+    </div>
+         <div class="box" >
+            
+            <div class="box-l">
+                <div class="title">第一步：填写手机账户信息（以下内容均为必填）</div>
+                <div class="emp" style="height: 30px;clear: both;"></div>
+                <div class="uName">
+                    <div class="uName-l">用户名：</div>
+                    <div class="uName-r">
+                        <input id="username" name="uid" value=""/> 
+                        <span style="color: #999999;font-size: 12px;">4-20个字符，一个汉字为两个字符，推荐使用中文会会员名字。一旦注册成功会员名将不能修改。</span>
+                    </div>
+                </div>
+
+                <div class="emp" style="height: 30px;clear: both;"></div>    
+                <div class="pNumber">
+                    <div class="pNumber-l">手机号码：</div>
+                    <div class="pNumber-r">
+                        <input id="mobileNumber" name="mobile" value=""/> 
+                        <span class="tips">请输入您的手机号码。</span> 
+                    </div>
+                </div>
+                    
+
+                <div class="emp" style="height: 30px;clear: both;"></div>   
+                <div class="tNumber">
+                        <div class="tNumber-l">验证码：</div>
+                        <div class="tNumber-r">
+                            <input type="text" maxlength="4" name="codeNumber" id="img2Code">
+                            <span id="mySpan2">
+                                <img align="middle" id="img2" class="change_img" src="https://passport.banggo.com:443/CASServer//custom/loginCode.do" /> 
+                                <a onclick="changeImg('img2')">换一张</a>
+                        </span>
+                        </div>
+                        
+                </div>
+                
+                <div class="emp" style="height: 30px;clear: both;"></div>
+
+                <a href="#">
+                    <div style="width: 140px;height: 30px;background: red;color: white;font-size: 16px;border-radius: 5px;text-align: center;line-height: 30px;margin-left: 170px;">发送激活码</div>
+                </a>   
+            </div>
+            <div class="box-r">
+                <img src="../img/register/bgowelcometext.png" alt="">
+            </div>
+            
+        </div>
+        <div class="bottom" style="font-size: 14px;text-align: center;">
+                    美特斯邦威集团网站：
+                            <a href="http://www.metersbonwe.com/">美特斯邦威</a> |
+                            <a href="http://www.me-city.com/">ME&CITY</a> |
+                            <a href="http://www.chincn.com/">CH'IN祺</a> |
+                            <a href="https://www.banggo.com">邦购网</a>
+             </div>    
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,117 @@
+@import 'public';
+.an{
+    width: 980px;
+    margin:0 auto;
+    .box{
+        height: 320px;
+        border: 1px solid black;
+        .box-l{
+            float: left;
+            width: 743px;
+            overflow: hidden;
+            .title{
+                width: 700px;
+                font-size: 14px;
+                text-indent: 20px;
+                line-height: 30px;
+                margin-left: 15px;
+                border-bottom: 1px dotted #E6E6E6;
+            }
+            .uName{
+                .uName-l{
+                    float: left;
+                    width: 173px;
+                    line-height: 30px;
+                    font-size: 14px;
+                    color: #666;
+                    text-align: right;
+                    
+                }
+                .uName-r{
+                    float: right;
+                    input{
+                        border: 1px solid #ABABAB;
+                        width: 240px;
+                        height: 28px;
+                        line-height: 28px;
+                        padding: 0 5px 0 0;
+                        margin: 0 10px 0 0;
+                        background-position: 0 -700px;
+                        background-repeat: repeat-x;
+                    }
+                    span{
+                        width: 305px;
+                        margin-top: -2px;
+                        display: inline-block;
+                        color: #999;
+                    }
+                }
+            }
+            .pNumber{
+                .pNumber-l{
+                    float: left;
+                    width: 176px;
+                    line-height: 30px;
+                    font-size: 14px;
+                    color: #666;
+                    text-align: right;
+                }
+                .pNumber-r{
+                    float: right;
+                    input{
+                        border: 1px solid #ABABAB;
+                        width: 240px;
+                        height: 28px;
+                        line-height: 28px;
+                        padding: 0 5px 0 0;
+                        margin: 0 10px 0 0;
+                        background-position: 0 -700px;
+                        background-repeat: repeat-x;
+                    }
+                    span{
+                        width: 305px;
+                        margin-top: -2px;
+                        display: inline-block;
+                        color: #999;
+                    }
+                }
+                
+            }
+            .tNumber{
+                .tNumber-l{
+                    float: left;
+                    width: 176px;
+                    line-height: 30px;
+                    font-size: 14px;
+                    color: #666;
+                    text-align: right;
+                }
+                .tNumber-r{
+                    float: left;
+                    input{
+                        border: 1px solid #ABABAB;
+                        width: 120px;
+                        height: 28px;
+                        line-height: 28px;
+                        padding: 0 5px 0 0;
+                        margin: 0 10px 0 0;
+                        background-position: 0 -700px;
+                        background-repeat: repeat-x;
+                    }
+                    span{
+                        float: right;
+                       a{
+                           float: right;
+                        text-decoration: none;
+                        cursor: pointer;
+                       } 
+                    }
+                }
+            }
+    
+        }
+        .box-r{
+            float: right;
+        }
+    }
+}
